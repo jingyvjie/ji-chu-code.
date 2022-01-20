@@ -3,6 +3,5 @@ class cat:
         print("猫咪等着吃%s" % food)
 
 
-
 obj=cat()
 obj.eat("肉")
