@@ -1,8 +1,8 @@
 class cat:
     def eat(self,food):
-        print(food)
+        print("猫咪等着吃%s" % food)
 
 
 
 obj=cat()
-obj.eat("鱼")
+obj.eat("肉")

@@ -12,6 +12,12 @@
 # scale = 10.01
 # print("数据是 %.2f%%" % scale)
 
+#  %d要格式化的必须是一个整数
+age=23
+print("我今年%i岁了" % age)
+print("我今年%d岁了" % age)
 
-age=13
+#  %o要格式化的必须是一个整数
+age=23
+print("我今年%o岁了" % age)
 print("我今年%d岁了" % age)
